@@ -1,0 +1,124 @@
+html,body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  font-size: 15px;
+
+  font-family: 'Crete Round', serif;
+}
+
+.Margen{
+  width: 1200px;
+  margin: 50px auto;
+  background-color: lightblue;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+header{
+  height: 150px;
+  background-color: lightgrey;
+  border: 1px solid cyan;
+  width: auto;
+}
+
+.Title{
+  float: left;
+  border: 1px solid cyan;
+}
+
+.Logo {
+  float:left;
+  width: 75px;
+}
+
+.navegador{
+  margin: 50px 50px 50px 0;
+  float: right;
+}
+.navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+.navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+.navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+.navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+nav a{
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+main{
+    border: 1px solid cyan;
+    height:600px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.vacas,.zorros,.patos{
+  border: 1px solid red;
+  float:left;
+  height: 33%;
+  width: 395px;
+}
+
+main >p{
+  text-align: justify;
+}
+
+article{
+    width:800px;
+    border: 1px solid blue;
+    height: 600px;
+    float: left;
+    overflow-x: scroll;
+}
+
+.pie{
+  border: 1px solid purple;
+}
+
+
+.Otros{
+  width: auto;
+  margin: 0 auto;
+  border: 1px solid green;
+  overflow: auto;
+}
+.S1, .S2, .S3 {
+width: 296px;
+margin-left: 2px;
+float: left;
+height: 300px;
+}
+
+.S2{
+  margin: 0 50px;
+}
+
+
+
+footer{
+  text-align: center;
+  padding: 50px;
+}
