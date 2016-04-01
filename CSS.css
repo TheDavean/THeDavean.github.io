@@ -14,13 +14,13 @@ body{
 .Margen{
   width: 1200px;
   margin: 50px auto;
-  background-color: lightblue;
+  background-color: lightgrey;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 header{
   height: 150px;
-  background-color: lightgrey;
+  background-image: url("http://wallpaper.zone/img/75493.png");
   border: 1px solid cyan;
   width: auto;
 }
@@ -70,16 +70,20 @@ nav a{
 
 main{
     border: 1px solid cyan;
-    height:600px;
+    height:800px;
     overflow: hidden;
-    width: 100%;
+    width: auto;
 }
 
 .vacas,.zorros,.patos{
-  border: 1px solid red;
+  border-bottom: 1px solid black;
   float:left;
-  height: 33%;
+  height: 260px;
+  margin: 0 0 20px 0;
   width: 395px;
+}
+.zorros{
+  margin: 10px 0 10px 0;
 }
 
 main >p{
@@ -88,10 +92,11 @@ main >p{
 
 article{
     width:800px;
-    border: 1px solid blue;
-    height: 600px;
+    border-right: 1px solid black;
+    height: 800px;
     float: left;
-    overflow-x: scroll;
+    overflow-y: scroll;
+
 }
 
 .pie{
@@ -100,21 +105,38 @@ article{
 
 
 .Otros{
-  width: auto;
-  margin: 0 auto;
+  width: 1200px;
   border: 1px solid green;
   overflow: auto;
 }
 .S1, .S2, .S3 {
-width: 296px;
-margin-left: 2px;
+width: 393.3333px;
 float: left;
 height: 300px;
 }
-
-.S2{
-  margin: 0 50px;
+.s2{
+  margin: 0 10px 0 10px;
 }
+.S3 ul{
+   list-style-type: none;
+   text-align: center;
+}
+.S3 li{
+   text-align: right;
+   margin: 0 10px 0 0;
+}
+.S3 li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+.S3 li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
 
 
 
