@@ -110,12 +110,49 @@ article{
   overflow: auto;
 }
 .S1, .S2, .S3 {
-width: 393.3333px;
+width: 400px;
 float: left;
 height: 300px;
 }
-.s2{
-  margin: 0 10px 0 10px;
+
+.S1{
+  background-color: #72CFCD;
+}
+.S1 h4{
+  font-size: 30px;
+  text-align: center;
+}
+.S1 ul{
+  list-style-type: none;
+  text-align: center;
+}
+.S1 li{
+   display: inline;
+   text-align: center;
+   margin: 0 30px 0 0;
+   text-decoration: none
+}
+.S1 li a{
+  color: black;
+}
+.S2{
+  background-color: #D9AD95;
+}
+.S2 h4{
+  font-size: 30px;
+  text-align: center;
+}
+.S2 p{
+  text-align: center;
+  font-size: 20px;
+}
+.S3{
+  background-color: #BBBBE9;
+}
+.S3 h4{
+  margin: 0 0 0 0;
+  font-size: 30px;
+  text-align: center;
 }
 .S3 ul{
    list-style-type: none;
